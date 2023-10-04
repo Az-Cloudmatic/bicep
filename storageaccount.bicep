@@ -1,12 +1,12 @@
 //Parameter
-param sa string = 'basefabSA'
+param sa string = 'azbicepsa343'
 param location string = 'uksouth'
 //param tag string = 'Sameer'
 
 resource basefabricSA 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   name: sa
   location: location 
-  //tags: 'sameer'
+  //pwtags: 'sameer'
   sku: {
     name: 'Premium_LRS'
   }
